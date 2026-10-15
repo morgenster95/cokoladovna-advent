@@ -1,0 +1,27 @@
+{
+  "name": "cokoladovna-advent",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@fontsource/dancing-script": "^5.3.0",
+    "@fontsource/dosis": "^5.3.0",
+    "firebase": "^11.10.0",
+    "lucide-react": "^0.511.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "5.8",
+    "vite": "^6.4.4"
+  }
+}
