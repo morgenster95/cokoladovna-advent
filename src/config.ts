@@ -6,10 +6,12 @@
  *    Dokud je apiKey prázdný, web běží v UKÁZKOVÉM režimu (přihlášení jen e-mailem, data jen v prohlížeči).
  */
 export const FIREBASE = {
-  apiKey: '',
-  authDomain: '',
-  projectId: '',
-  appId: '',
+  apiKey: 'AIzaSyAwgmsw8dVK-D8y3W7Uck9Dc64FkAQEbN4',
+  authDomain: 'cokoladovna-aaba2.firebaseapp.com',
+  projectId: 'cokoladovna-aaba2',
+  storageBucket: 'cokoladovna-aaba2.firebasestorage.app',
+  messagingSenderId: '618667089264',
+  appId: '1:618667089264:web:745d90740617b6af4203b5',
 };
 
 /** 'draft' = u kupónů a soutěží se ukazuje upozornění „ukázkový obsah“. Před spuštěním přepněte na 'live'. */
